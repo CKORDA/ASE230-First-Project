@@ -1,0 +1,11 @@
+<?php
+  function memberAge($dateOfBirth){
+    $DOB = new DateTime($dateOfBirth);
+    $todayDate = new DateTime();
+    $age = $todayDate ->diff($DOB)->y;
+    return $age;
+  }
+
+  function memberInfo($memberArray, $memberNumber){
+    
+?>
