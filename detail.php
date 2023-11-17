@@ -3,49 +3,163 @@ $teamMembers=[
 	[
 		'firstname'=>'Cheyenne',
 		'lastname'=>'Korda',
+        'dateofBirth'=>'2004-03-14',
 		'role'=>'Cyber Security Analyst',
-		'email'=>'cheyennekorda2384@gmail.com',
-		'summary'=>'I went to highschool at a STEM academy known as iLEAD Academy where I kick-started my passion for computers and cyber security. I start off in the Engineering program then transistioned to the Computer Science area my sophomore year. As soon as my junior year started, I was in dual credit classes for computer science at Jefferson Community & Technical College. I finished my Associates Degree when I graduated highschool. After that I started my Bachelors degree at Northern Kentucky University for Cyber Security. Ive had numerous jobs throughout my education as well, but I will get into those down below.',
-		'bio'=>'Hello, my name is Cheyenne Korda. I am a second year student at NKU majoring in Cybersecurity with a minor in Computer Forensics. I am currently looking for a part-time job or internship.',
-		'experience'=>[
-			'experiencetitle'=>'Security Architecture',
-			'emperiencecompany'=>'First Financial Bank',
-			'experiencedate'=>'May 2023 - August 2023',
-			'whatwasdone'=>'During this internship, I worked on the data to/from vendors of the company. My partner and I contacted the Vendor Managers to determine what data was being transferred and in what format the transfer was taking place. We put this data into spreadsheets and organized it accordingly in order to convey the information properly.'		
-		]
-		'achievements'=>[
-			'ach1'=>'While working at this company, I was taught a lot about team work, spreadsheet building,communication, and data analysis.',
-			'ach2'=>'Learned how to effectively analyze whether a vednor is a critical, high, or moderate risk for the company.',
-			'ach3'=>'Worked with a partner throughout the entire internship, and together we accomplished the goal our supervisor gave.',
-			'ach4'=>'We created a series of spreadsheets in order to show our work to our supervisors and others throughout the company.',
-			'ach5'=>'Ensured that someone who didnt have access to the data would be able to easily understand what was being conveyed within the spreadsheets.'
-		]
-		'techUsed'=>[
-			'tech1'=>'Powerpoint',
-			'tech2'=>'Excel',
-			'tech3'=>'ARDs',
-			'tech4'=>'GLBA'
-		]
-		//technologyused
+		'bio'=>'Hi, my name is Cheyenne Korda. I am a student at Northern Kentucky University in pursuit of my bachelors degree in 
+		Cyber Security. I am minoring in Computer Forensics and am hoping to land a job within a three-letter agency such as the FBI or 
+		CIA. I am working as a \"Peer Mentore\" this semester which is allowing me to explore my leadership skills and my ability to 
+		teach.',
+		'image'=>'assets/images/profileCK.jpg',
+		'email'=> 'kordac1@nku.edu',
+		'phone number'=> '6786739423',
+		'linkedin'=>'https://www.linkedin.com/in/cheyennekorda',
+		'github' => '',
+		'webpage'=>'',
+		'summary'=>'Highly motivated and detail-oriented NKU Computer Information Technology student with strong customer service
+		experience and a solid understanding of HTML, Python, and Java. Seeking an internship in networking and systems
+		administration to apply and enhance knowledge and skills in a real-world setting.',
+		'workExperience'=>[
+            [
+                'experience name'=>'Security Architecture Intern',
+		        'experience location'=> 'First Financial Bank ',
+		        'year'=>'May 2023 - August 2023',
+		        'description of the role'=> 'Looked into the company\'s ARD documents and contacted the correct personell in order to ensure
+		that the data was up to date and correct according to the document. Learned how to analyze the data and interpret it, as well as
+		formatting it in a way that a normal person would be able to comprehend. I also presented to a number of people for various topics 
+		within the field.',
+		    ],
+    
+        ],'achievements'=> ['>3.0 GPA','Dean\'s list','learned php'],
+		'skills name'=> ['java','python', 'javascript','linux', 'html'],
+		'others'=> ['unix', 'excel','powerpoint','word','wordpress'],
+		'education'=>'Bachelor of science in Cyber Security',
+		'school'=> 'Northern kentucky university',
+		'year'=>'2022-2025',
+		'languages'=>[
+			[
+				'name'=>'English',
+				'proficiency'=>'Native'
+			],
+			[
+				'name'=>'Choctaw',
+				'proficiency'=>'Learning'
+			]
+		],
+		'honors & awards' => [
+			[
+				'name' =>'Dean\'s List',
+				'description'=>'Awarded to students with a 3.0 GPA and above',
+			],
+			[
+				'name'=> 'Founder\'s Scholarship',
+				'description'=>'This scholarship is for students who have earned an accumulative GPA of 3.0 or higher.',
+			]
+			],
+		'interests'=>['coaching','gym','reading'],
+		'projects' => [
+			[
+				'name'=> 'Game Design',
+				'description'=> 'The task was to build a game using python that players would have some sort of simple, yet fun thing to do.',
+				'link'=>'http://localhost/ase230/01/assets/other%20pages/projectFinal_KORDAC1-4.py',
+				'picture'=>'assets/images/project1.jpg',
+			],
+		],
+		
 	],
 	[
 		'firstname'=>'Ramatoulaye',
 		'lastname'=>'Signate',
+        'dateofBirth'=>'',
 		'role'=>'Software developer',
 		'bio'=>'Hello, My name is Ramatoulaye signate. I am an international student from senegal. I came in the united states in 2019 
 		to pursue my bachelor degree in computer information technology. I am majoring in CIT and minoring in information security at 
 		NKU. I am a completed finisher someone who can be relied upon to get a job done on time and to a great standard. 
-		I have experience working in teams and dealing with customer.'
-	],
-	[
-		'firstname'=>'Nicholas',
-		'lastname'=>'Caporusso',
-		'role'=>'dog sitter'
+		I have experience working in teams and dealing with customer.',
+		'email'=> 'signater1@nku.edu',
+		'image'=>'assets/images/profile.jpg',
+		'phone number'=> '3478053318',
+		'linkedin'=>'https://www.linkedin.com/in/ramatoulayesignate',
+		'github' => '',
+		'webpage'=>'',
+		'summary'=>'Highly motivated and detail-oriented NKU Computer Information Technology student with strong customer service
+		experience and a solid understanding of HTML, Python, and Java. Seeking an internship in networking and systems
+		administration to apply and enhance knowledge and skills in a real-world setting.',
+		'workExperience'=>[
+            [
+                'experience name'=>'Cashier/Bookseller',
+		        'experience location'=> 'Barners&Noble',
+		        'year'=>'Jan 2020 - Nov 2020',
+		        'description of the role'=> 'Assisted an average of 50 customers per day with product location, questions, and cash transactions.
+		Resolved customer complaints with efficiency and professionalism, receiving recognition from senior management for maintaining customer satisfaction ratings above 95%.
+		Maintained a well-organized sales floor for optimal customer shopping experience.',
+            ],
+        ],
+		'achievements'=> ['conquered france','won purple heart medal','learned php'],
+		'skills name'=> ['java','python', 'javascript','linux', 'html'],
+		'others'=> ['unix', 'R','tableau','oracle', 'excel','powerpoint','word','wordpress'],
+		'education'=>'Bachelor of science in CIT',
+		'school'=> 'Northern kentucky university',
+		'year'=>'2019-2024',
+		'languages'=>[
+			[
+				'name'=>'English',
+				'proficiency'=>'Fluent'
+			],
+			[
+				'name'=>'French',
+				'proficiency'=>'Native'
+			]
+		],
+		'honors & awards' => [
+			[
+				'name' =>'Edge award',
+				'description'=>'It is designated to recognize academically outstanding and creatively talented students.',
+			],
+			[
+				'name'=> 'international merit scholarship',
+				'description'=>'This scholarship is for international students who have earned an accumulative GPA of 3.0 or higher.',
+			]
+			],
+		'interests'=>['swimming','gym','cooking'],
 
-	]
+
+	],
+	
 	
 ];
 $index=$_GET['index'];
+
+function displayWork($teamMembers, $index) {
+    $teamMember = $teamMembers[$index];
+        echo '<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>';
+        echo '<div class="resume-section-content">';
+        echo '<div class="resume-timeline position-relative">';
+
+        foreach ($teamMember['workExperience'] as $index => $workExperience) {
+            echo '<article class="resume-timeline-item position-relative pb-5">';
+            echo '<div class="resume-timeline-item-header mb-2">';
+            echo '<div class="d-flex flex-column flex-md-row">';
+            echo '<h3 class="resume-position-title font-weight-bold mb-1">' . $workExperience['experience name'] . '</h3>';
+            echo '<div class="resume-company-name ms-auto">' . $workExperience['experience location'] . '</div>';
+            echo '</div><!--//row-->';
+            echo '<div class="resume-position-time">' . $workExperience['year'] . '</div>';
+            echo '</div><!--//resume-timeline-item-header-->';
+            echo '<div class="resume-timeline-item-desc">' . $workExperience['description of the role'] . '</div>';
+            echo '</article>';
+        }
+
+        echo '</div><!--//resume-timeline-->';
+        echo '</div><!--//resume-section-content-->';
+    
+}
+
+function memberAge($dateofBirth){
+    $DOB = new DateTime($dateofBirth);
+    $todayDate = new DateTime();
+    $age = $todayDate->diff($DOB)->y;
+    return $age;
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -75,30 +189,34 @@ $index=$_GET['index'];
 </head> 
 
 <body>
+
+
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 		<header class="resume-header pt-4 pt-md-0">
 		
 			    <div class="row">
 				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-				        <img class="picture" src="assets/images/profile.jpg" alt="" width="150" height= "220">
+				        <img class="picture" src="<?= $teamMembers[$index]['image'] ?>" alt="" width="150" height= "220">
 				    </div><!--//col-->
 				    <div class="col">
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
 							
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $teamMembers[$index]['firstname'].' '.$teamMembers[$index]['lastname'] ?></h1>
+                                <h2>Age - <?= memberAge($teamMembers[$index]['dateofBirth']) ?> </h2>
+
 							  <div class="title mb-3"><?= $teamMembers[$index]['role'] ?></div>
 							    <ul class="list-unstyled">
-								  <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?='signater1@nku.edu'?></a></li>
-								    <li><a class="text-link" href="3478053318"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?='3478053318'?></a></li>
+								  <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?=$teamMembers[$index]['email']?></a></li>
+								    <li><a class="text-link" href="3478053318"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?=$teamMembers[$index]['phone number']?></a></li>
 							    </ul>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
 							    <ul class="resume-social list-unstyled">
-					                <li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/ramatoulayesignate"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><?='www.linkedin.com/in/ramatoulayesignate'?></a></li>
-					                <li class="mb-3"><a class="text-link" href="https://github.com/Rsignate"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span><?='www.github.com'?></a></li>
-					                <li><a class="text-link" href="https://github.com/Rsignate/Mywebpage"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span><?='www.website.com'?></a></li>
+					                <li class="mb-3"><a class="text-link" href=<?= $teamMembers[$index]['linkedin']?>><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><?= $teamMembers[$index]['linkedin']?></a></li>
+					                <li class="mb-3"><a class="text-link" href<?= $teamMembers[$index]['github']?>=span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span><?='www.github.com'?></a></li>
+					                <li><a class="text-link" href=<?= $teamMembers[$index]['webpage']?>><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span><?='www.website.com'?></a></li>
 							    </ul>
 						    </div><!--//secondary-info-->
 					    </div><!--//row-->
@@ -118,45 +236,17 @@ $index=$_GET['index'];
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
-						    <div class="resume-section-content">
-							    <div class="resume-timeline position-relative">
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1"></h3>
-										        <div class="resume-company-name ms-auto"><?= $teamMembers[$index]['experience']['experiencetitle']?></div>
-										    </div><!--//row-->
-										    <div class="resume-position-time"><?= $teamMembers[$index]['experience']['experiencedate']?></div>
-									    </div><!--//resume-timeline-item-header-->
-									    <div class="resume-timeline-item-desc">
-										    <p><?= $teamMembers[$index]['experience']['whatwasdone']?>
-                                            <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+				<?php displayWork($teamMembers, $index);?>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 										    <p>
                                                 
                                                 
                                                 </p>
 										    <ul>
-											    <li> <?='Consistently Supported High Customer Volume: Successfully assisted an average of 50 customers daily with product inquiries, locating items, and processing cash transactions, showcasing exceptional multitasking skills and dedication to providing quality service.
-												'?></li>
-                                                <li><?=
-				                                'Exemplary Customer Satisfaction: Demonstrated efficiency and professionalism in addressing customer complaints, leading to a consistent customer satisfaction rating above 95%. Recognized by senior management for your exceptional conflict resolution abilities.
-											    '?></li>
-                                                <li> <?=
-												'Outstanding Customer Relationship Management: Built and maintained strong rapport with customers through attentive service, resulting in repeat business and positive word-of-mouth referrals.
-												'?></li>
-											    <li> <?=
-												'Operational Excellence: Played a pivotal role in maintaining a meticulously organized sales floor, enhancing the overall shopping experience for customers and contributing to increased sales revenue.
-												'?></li>
-											    <li><?=
-												'Team Collaboration: Collaborated effectively with fellow team members to ensure a seamless customer service experience, contributing to a harmonious work environment and streamlined operations. </li>
-										    	'?><li> <?=
-												'Continuous Improvement: Proactively identified areas for process enhancement and proposed solutions, leading to the implementation of more efficient workflows and improved customer service protocols.
-												'?></li>
-												<li><?=
-												'Time Management Excellence: Effectively managed high customer flow while balancing various tasks, optimizing time allocation to ensure both customer needs and operational responsibilities were met consistently.
-												'?></li>
+											 <?php
+											 foreach($teamMembers[$index]['achievements'] as $item){ ?>
+											    <li> <?= $item?></li>
+												<?php }?>
 											</ul>
 										    
 									    </div><!--//resume-timeline-item-desc-->
@@ -217,15 +307,12 @@ $index=$_GET['index'];
 						        <div class="resume-skill-item">
 						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
 						            <ul class="list-inline">
-							            <li class="list-inline-item"><span class="badge badge-light"><?='unix'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='R'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='Oracle'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='Tableau'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='excel'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='powerpoint'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='word'?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?='WordPress'?></span></li>
-			
+										<?php
+											 foreach($teamMembers[$index]['others'] as $item){ ?>
+											    
+							            <li class="list-inline-item"><span class="badge badge-light"><?= $item?></span></li>
+										<?php }?>
+							       
 						            </ul>
 						        </div><!--//resume-skill-item-->
 						    </div><!--resume-section-content-->
@@ -235,9 +322,9 @@ $index=$_GET['index'];
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
 								    <li class="mb-2">
-								        <div class="resume-degree font-weight-bold"><?='Bachelor of science in CIT'?> </div>
-								        <div class="resume-degree-org"><?'Northern Kentucky University'?></div>
-								        <div class="resume-degree-time"><?='2019 - 2024'?></div>
+								        <div class="resume-degree font-weight-bold"><?= $teamMembers[$index]['education']?> </div>
+								        <div class="resume-degree-org"><?= $teamMembers[$index]['school']?></div>
+								        <div class="resume-degree-time"><?= $teamMembers[$index]['year']?></div>
 								    </li>
 								   
 							    </ul>
@@ -249,16 +336,12 @@ $index=$_GET['index'];
 							    <ul class="list-unstyled resume-awards-list">
 								    <li class="mb-2 ps-4 position-relative">
 								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name"><?='Edge Award'?></div>
-								        <div class="resume-award-desc">
-                                          <?= 'It is designated to recognize academically outstanding and creatively talented students.'?>
-                                        </div>
+										<?php foreach ($teamMembers[$index]['honors & awards'] as $item){ ?>
+								        <div class="resume-award-name"><?= $item['name']?></div>
+								        <div class="resume-award-desc"><?=$item['description']?></div>
+										<?php } ?>
 								    </li>
 								    <li class="mb-0 ps-4 position-relative">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name"><?='International Merit scholarship'?></div>
-								        <div class="resume-award-desc"><?='This scholarship is for international students who have earned an accumulative GPA of 3.0 or higher.'?> </div>
-								    </li>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
@@ -266,19 +349,20 @@ $index=$_GET['index'];
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Languages</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled resume-lang-list">
-								    <li class="mb-2"><span class="resume-lang-name font-weight-bold"><?='Wolof'?></span> <small class="text-muted font-weight-normal"><?='(Native)'?></small></li>
-								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold"><?'French'?></span> <small class="text-muted font-weight-normal"><?='(Professional)'?></small></li>
-								    <li><span class="resume-lang-name font-weight-bold"><?'English'?></span> <small class="text-muted font-weight-normal"><?='(Full Professional proficiency)'?></small></li>
-							    </ul>
+									<?php foreach($teamMembers[$index]['languages'] as $item){ ?>
+								    <li class="mb-2"><span class="resume-lang-name font-weight-bold"><?=$item['name']?></span> <small class="text-muted font-weight-normal"><?=$item['proficiency'] ?></small></li>
+								    <?php } ?>  
+								</ul>
 						    </div>
 					    </section><!--//language-section-->
 					    <section class="resume-section interests-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
-								    <li class="mb-1"><?='Swimming'?></li>
-								    <li class="mb-1"><?='Gym'?></li>
-								    <li class="mb-1"><?='Cooking'?></li>
+									<?php foreach($teamMembers[$index]['languages'] as $item){ ?>
+								    <li class="mb-1"><?=$item['name']?></li>
+									<?php } ?>  
+								
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
@@ -292,31 +376,24 @@ $index=$_GET['index'];
 							<div class="card">
 								<img src="path-to-project-image1.jpg" alt="Project 1" class="card-img-top">
 								<div class="card-body">
-									<h5 class="card-title"><?='Created a dashboard'?></h5>
-									<p class="card-text"><?='Collaborated with a team of three students to create visually appealing dashboards using tableau and various datasets.'?></p>
-									<a href="btn btn-outline-primary" href="https://github.com">Go to link</a>
+									<?php foreach($teamMembers[$index]['projects'] as $item){ ?>
+									<h5 class="card-title"><?=$item['name']?></h5>
+									<p class="card-text"><?=$item['description']?></p>
+									<a href="btn btn-outline-primary" href="<?=$item['link']?>">Go to link</a>
+									<?php } ?>
+									
+									
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<img src="path-to-project-image2.jpg" alt="Project 2" class="card-img-top">
-								<div class="card-body">
-									<h5 class="card-title"><?='Created a dynamic API-driven eCommerce website'?></h5>
-									<p class="card-text"><?='Developed an eCommerce website from scratch utilizing HTML,CSS and Javascript to enhance online presence and blster sales performance.'?></p>
-									<a href="btn btn-outline-primary" href="https://github.com/Rsignate/dynamic-API-driven-eCommerce-website.git">Go to link</a>
-
-								</div>
-							</div>
-						</div>
-						
 					</div>
 				</section><!--//projects-section-->
 		    </div><!--//resume-body-->
 		    
 		    
 	    </div>
-		<a href="phttp://localhost/nku/ase230/group%20project1/ <?= $i ?>">Go back to the list of the members of the band </a>
+		<a href='index.php'>Go back to the list of the members of the band </a>
+
     </article> 
 
     
@@ -328,4 +405,6 @@ $index=$_GET['index'];
     
 
 </body>
-</html>
+
+</html> 
+
