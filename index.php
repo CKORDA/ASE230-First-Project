@@ -5,15 +5,26 @@ $teamMembers = [
         "name" => "Cheyenne Korda",
         "role" => "Cyber Security Analyst",
         "link" => "detail.php?index=0",
-        "image" => "assets/images/profileCK.jpg"
+        "image" => "assets/images/profileCK.jpg",
+        "dateofBirth" =>"2004-03-14"
     ],
     [
         "name" => "Ramatoulaye signate",
         "role" => "software developer",
         "link" => "detail.php?index=1",
-        "image" => "assets/images/profile.jpg"
+        "image" => "assets/images/profile.jpg",
+        "dateofBirth" =>""
     ]
 ];
+
+
+function memberAge($dateofBirth){
+    $DOB = new DateTime($dateofBirth);
+    $todayDate = new DateTime();
+    $age = $todayDate->diff($DOB)->y;
+    return $age;
+}
+
 
 function displayMember($member, $index){
     echo '<header class="resume-header mt-4 pt-4 pt-md-0">';
@@ -25,6 +36,7 @@ function displayMember($member, $index){
                 echo '<div class="row p-4 justify-content-center justify-content-md-between">';
                     echo '<div class="primary-info col-auto">';
                         echo '<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">' . $member['name'] . '</h1>';
+                        echo '<h2>Age - ' . memberAge($member['dateofBirth']) . '</h2>';
                         echo '<div class="title mb-3">' . $member['role'] .'</div>';
                         echo '<a href="' . $member['link'] .'" class="btn btn-secondary">See full profile</a>';
                     echo '</div><!--//primary-info-->';
@@ -78,6 +90,8 @@ function displayMember($member, $index){
     <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
     <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by cheyenne and Ramatoulaye</small>
 </footer>
+
+
 
 
 
