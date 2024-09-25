@@ -13,7 +13,7 @@ $teamMembers = [
         "role" => "software developer",
         "link" => "detail.php?index=1",
         "image" => "assets/images/profile.jpg",
-        "dateofBirth" =>""
+        "dateofBirth" =>"2000-11-21"
     ]
 ];
 
